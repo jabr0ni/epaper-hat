@@ -6385,14 +6385,12 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 149.86 120.65 270)
-		(mirror x)
+		(at 149.86 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20930711-83be-4260-9797-8cf350ea4c0f")
 		(property "Reference" "Q2"
 			(at 149.86 111.76 90)
@@ -6411,7 +6409,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 147.955 115.57 0)
+			(at 151.765 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6420,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 146.05 115.57 0)
+			(at 153.67 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,13 +6590,13 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 121.92 151.13 270)
+		(at 121.92 151.13 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3199f3d8-a776-4ead-a6be-29c24bab18a1")
 		(property "Reference" "R9"
 			(at 121.92 144.78 90)
