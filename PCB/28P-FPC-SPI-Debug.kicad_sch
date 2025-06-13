@@ -7540,7 +7540,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 149.86 120.65 90)
+		(at 149.86 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7564,7 +7565,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 151.765 115.57 0)
+			(at 147.955 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,7 +7576,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 153.67 115.57 0)
+			(at 146.05 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +7935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3924d20b-5a2b-4036-b1be-0ab1018029d9")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 132.08 140.9699 0)
 			(effects
 				(font
@@ -7988,7 +7989,7 @@
 		(instances
 			(project "28P-FPC-SPI-Debug"
 				(path "/301bb37e-82b1-4eff-97df-faf63e991923"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8393,7 +8394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c899f4a-4fac-458d-87aa-6f501d49b46b")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 116.84 140.9699 0)
 			(effects
 				(font
@@ -8447,7 +8448,7 @@
 		(instances
 			(project "28P-FPC-SPI-Debug"
 				(path "/301bb37e-82b1-4eff-97df-faf63e991923"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9072,7 +9073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83b64272-0999-4dcf-9220-091dbac89a7c")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 142.24 123.1899 0)
 			(effects
 				(font
@@ -9126,7 +9127,7 @@
 		(instances
 			(project "28P-FPC-SPI-Debug"
 				(path "/301bb37e-82b1-4eff-97df-faf63e991923"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9475,7 +9476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "927d9fe2-d451-4ed6-9064-eeb10da1b3d7")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 95.25 58.4199 0)
 			(effects
 				(font
@@ -9529,7 +9530,7 @@
 		(instances
 			(project "28P-FPC-SPI-Debug"
 				(path "/301bb37e-82b1-4eff-97df-faf63e991923"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10471,7 +10472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c64960ad-3895-4100-b84a-5f8126950278")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 121.92 129.54 90)
 			(effects
 				(font
@@ -10523,7 +10524,7 @@
 		(instances
 			(project "28P-FPC-SPI-Debug"
 				(path "/301bb37e-82b1-4eff-97df-faf63e991923"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
