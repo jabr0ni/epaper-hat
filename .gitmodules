@@ -1,0 +1,3 @@
+[submodule "Software/e-Paper"]
+	path = Software/e-Paper
+	url = https://github.com/waveshareteam/e-Paper.git
