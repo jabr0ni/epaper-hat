@@ -14,6 +14,9 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 
 set(TS_FILES epaper-image-converter_en_AU.ts)
 
+#OpenCV
+find_package(OpenCV REQUIRED)
+
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
@@ -24,12 +27,12 @@ set(PROJECT_SOURCES
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     find_package(Qt6 REQUIRED COMPONENTS Widgets)
-
     qt_add_executable(epaper-image-converter
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         imagehandler.h imagehandler.cpp
         ePaperProperties.h
+        imageprocessing.h imageprocessing.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET epaper-image-converter APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -55,7 +58,9 @@ endif()
 
 target_link_libraries(epaper-image-converter PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 target_link_libraries(epaper-image-converter PRIVATE Qt6::Widgets)
+target_link_libraries(epaper-image-converter PUBLIC ${OpenCV_LIBS})
 
+target_include_directories(epaper-image-converter PRIVATE ${OpenCV_INCLUDE_DIRS})
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
