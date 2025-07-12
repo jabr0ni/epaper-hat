@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "imagehandler.h"
+#include "imageprocessing.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -16,11 +17,26 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
+
     ~MainWindow();
+
+
+    void DisplayImage(QWidget *parent);
 
 private:
     Ui::MainWindow *ui;
 
+    // cv::Mat imageProcessing;
+
     ImageHandler imageHandler;
+    ImageProcessing imageProcessing;
+
+    void displayMainImage();
+    void displayProcessedImage();
+    bool loadImage();
+
+public slots:
+    void ImageProcessHandler();
+
 };
 #endif // MAINWINDOW_H
