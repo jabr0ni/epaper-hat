@@ -11,10 +11,10 @@ Anyway, I can think about all this later. Right now the task at hand is to const
 ## PCB
 Be gentle, this is my first PCB I've designed by myself from scratch 🥹
 ### Track layout
-![28P-FPC-SPI-Debug-PCB-2D](https://github.com/user-attachments/assets/4eb482e3-a8e3-46e0-a678-4b44994d6e51)
+<img src="https://github.com/user-attachments/assets/4eb482e3-a8e3-46e0-a678-4b44994d6e51" alt="drawing" width="600"/>
 
 ### Front + Back 3D
-![28P-FPC-SPI-Debug-PCB-FrBa](https://github.com/user-attachments/assets/217df6b0-ca7a-4ac2-b460-8e91971b95b4)
+<img src="https://github.com/user-attachments/assets/217df6b0-ca7a-4ac2-b460-8e91971b95b4" alt="drawing" width="600"/>
 
 ## BOM
 | Reference        | Qty | Value            | Manufacturer Part No.         |
@@ -40,4 +40,14 @@ Be gentle, this is my first PCB I've designed by myself from scratch 🥹
 | R11              | 1   | 100K             | CRCW0603100KFKEE               |
 | U1               | 1   | RT9193-33GB      | RT9193-33GB                    |
 | U2               | 1   | TXB0108PW        | TXB0108PWR                     |
+|----------------------------------------------------------------------------|
 
+# Prototyped Boards
+I recently had my custom PCB prototyped through PCBWay, and I am very impressed with the overall quality and service. From the start, their customer support was excellent—clear, responsive, and proactive in keeping me updated on the progress of my order. It was reassuring to receive regular communication at each stage of the process, from file checks through to production and shipping.
+
+The boards themselves came out great. The soldering work is clean, precise, and of consistently high quality. I inspected the joints and pads closely, and everything was well aligned with no visible defects or irregularities. The overall finish of the boards, from the silkscreen to the copper traces, is sharp and professional. It’s clear that PCBWay places strong emphasis on both manufacturing quality and attention to detail.
+
+What stood out most to me was how smooth the experience was. Even as a prototype run, the boards feel production-ready, giving me confidence to move forward with testing and further development. For anyone looking for reliable PCB prototyping with excellent communication and workmanship, I would highly recommend PCBWay. I’ll definitely be returning for future projects.
+<img src="https://github.com/user-attachments/assets/f72e629e-b2f1-4941-9721-07ae32b13436" alt="drawing" width="400"/>
+<img src="https://github.com/user-attachments/assets/6e93fe24-491a-4dab-bcba-4b5c31152581" alt="drawing" width="400"/>
+<img src="https://github.com/user-attachments/assets/770e50d2-74de-4eac-8172-b1574b4fccc0" alt="drawing" width="400"/>
