@@ -43,7 +43,7 @@ Be gentle, this is my first PCB I've designed by myself from scratch 🥹
 |----------------------------------------------------------------------------|
 
 # Prototyped Boards
-I recently had my custom PCB prototyped through PCBWay, and I am very impressed with the overall quality and service. From the start, their customer support was excellent—clear, responsive, and proactive in keeping me updated on the progress of my order. It was reassuring to receive regular communication at each stage of the process, from file checks through to production and shipping.
+I recently had my custom PCB prototyped through [PCBWay](https://www.pcbway.com/), and I am very impressed with the overall quality and service. From the start, their customer support was excellent—clear, responsive, and proactive in keeping me updated on the progress of my order. It was reassuring to receive regular communication at each stage of the process, from file checks through to production and shipping.
 
 The boards themselves came out great. The soldering work is clean, precise, and of consistently high quality. I inspected the joints and pads closely, and everything was well aligned with no visible defects or irregularities. The overall finish of the boards, from the silkscreen to the copper traces, is sharp and professional. It’s clear that PCBWay places strong emphasis on both manufacturing quality and attention to detail.
 
