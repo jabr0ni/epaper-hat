@@ -4469,7 +4469,7 @@
 	)
 	(text_box "Q2; PNP MOSFET.\n\nAssuming VCC_INT is HIGH\nVCC_EN HIGH: RST HIGH, BASE of Q32 ACTIVE so GATE of Q31 pulled LOW allowing current to flow from S->D.\nVCC_EN LOW: RST LOW, BASE of Q32 INACTIVE. VCC_INT voltage fed back to Q31 GATE causing no electron flow to VCC."
 		(exclude_from_sim no)
-		(at 166.37 120.65 0)
+		(at 102.87 97.79 0)
 		(size 52.07 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -6127,15 +6127,15 @@
 		)
 		(uuid "20b8ca41-637d-49a6-863c-9e0fd694866c")
 	)
-	(label "GND"
-		(at 27.94 26.67 0)
+	(label "SCLK"
+		(at 27.94 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2b31e3ac-620e-4eee-b8fc-a2c3a17628e4")
+		(uuid "21654cd1-3aaf-4d54-97d4-46716ae6acbd")
 	)
 	(label "PREVGL"
 		(at 52.07 185.42 270)
@@ -6207,7 +6207,7 @@
 		)
 		(uuid "43c8afa0-b5c3-4869-8551-24ccc6d53638")
 	)
-	(label "CS"
+	(label "D{slash}C"
 		(at 27.94 34.29 0)
 		(effects
 			(font
@@ -6215,7 +6215,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "44b85119-3021-4996-91b7-28353e4816e2")
+		(uuid "442b9450-c463-45cf-9b44-442f466e7b10")
 	)
 	(label "EPD_SCLK"
 		(at 269.24 134.62 180)
@@ -6237,6 +6237,26 @@
 		)
 		(uuid "4c7e4cd3-2f00-4698-b930-2ef7a9973fa4")
 	)
+	(label "GND"
+		(at 27.94 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "507ae696-de6f-4d90-847a-20268dc5c0ab")
+	)
+	(label "VCC_INT"
+		(at 27.94 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53277720-e0f2-41ff-aae7-0099a969e45e")
+	)
 	(label "VSL"
 		(at 269.24 157.48 180)
 		(effects
@@ -6257,15 +6277,15 @@
 		)
 		(uuid "5f7a7dfc-b97c-4e46-b37a-45c6afdaf378")
 	)
-	(label "SCLK"
-		(at 27.94 31.75 0)
+	(label "BUSY"
+		(at 27.94 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "631d67c9-d66b-4e00-9ce3-65f122e90e76")
+		(uuid "62e3e242-ea02-4c9d-b438-4bd460d03ff7")
 	)
 	(label "VCC_INT"
 		(at 101.6 118.11 180)
@@ -6276,26 +6296,6 @@
 			(justify right bottom)
 		)
 		(uuid "632e6726-08d2-4cd0-a160-380cae5d6e0d")
-	)
-	(label "D{slash}C"
-		(at 27.94 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64ef8b9e-091f-4118-a3d1-32b8c1da382a")
-	)
-	(label "SDI"
-		(at 27.94 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "651b8bb0-d975-4461-9560-dd4aaac9ff16")
 	)
 	(label "Vcc"
 		(at 165.1 118.11 0)
@@ -6427,6 +6427,16 @@
 		)
 		(uuid "97e8a65e-ea36-49e2-915b-440ea3061c62")
 	)
+	(label "SDI"
+		(at 27.94 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d3f7c8f-beeb-4ae9-9c56-2a61fde5ee87")
+	)
 	(label "VPP"
 		(at 238.76 62.23 0)
 		(effects
@@ -6497,16 +6507,6 @@
 		)
 		(uuid "adea9c21-2807-441f-a14d-ee5ff8bc9a04")
 	)
-	(label "VCC_INT"
-		(at 27.94 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0c885e5-06ce-48ba-9be0-9976f1a30b2e")
-	)
 	(label "VGH"
 		(at 238.76 26.67 0)
 		(effects
@@ -6527,6 +6527,16 @@
 		)
 		(uuid "b2836546-4a15-49a7-847e-8a02f5b182f1")
 	)
+	(label "\\RST"
+		(at 27.94 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3cf9c60-a3f0-4e67-acd9-5b35b83ced18")
+	)
 	(label "\\EPD_RST"
 		(at 269.24 127 180)
 		(effects
@@ -6546,16 +6556,6 @@
 			(justify left bottom)
 		)
 		(uuid "b704c25e-6e27-4417-a822-8fef3af0ae80")
-	)
-	(label "\\RST"
-		(at 27.94 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb976115-d1d4-484b-a665-ad4a4fcaec01")
 	)
 	(label "D{slash}C"
 		(at 72.39 81.28 0)
@@ -6587,6 +6587,16 @@
 				(justify right)
 			)
 		)
+	)
+	(label "CS"
+		(at 27.94 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2fba140-fbe4-454d-9f8a-42a84d14d792")
 	)
 	(label "EPD_CS"
 		(at 35.56 83.82 180)
@@ -6757,16 +6767,6 @@
 			(justify left bottom)
 		)
 		(uuid "f324a6a7-ee5c-4354-beba-41f9829b3be1")
-	)
-	(label "BUSY"
-		(at 27.94 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f721520a-dbf3-4b3c-ac62-48096318218a")
 	)
 	(label "VPP"
 		(at 269.24 149.86 180)
@@ -10153,7 +10153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Samtec_HLE_THT:Samtec_HLE-104-02-xx-DV-TE_2x04_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 19.05 31.75 0)
 			(effects
 				(font
