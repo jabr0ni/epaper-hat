@@ -2,19 +2,17 @@
 
 # E-Paper Business Card?
 
-I wanted  to mess around with an e-paper display and build upon my PCB design skills. Also, because all the design work I have done during my 8+ year software career is all within private repositories, I thought it would be beneficial to show that I can actually do stuff 😂
-
-My idea was to create a type of business card with an e-paper display, where I can program an "image" onto it. I also want to (in later revisions once the prototype is working) add a button on the back that can toggle to different images. Also have thought about adding one or two sensors (depending on space) such as a gyro and/or comms module. I plan on interfacing this with an STM32L4 MCU (have a Nucleo L433RC). Code for that has been started in this repo.
-
-Anyway, I can think about all this later. Right now the task at hand is to construct the prototype once the parts arrive and do my initial tests.
+My idea is to create a type of business card with an e-paper display, where I can program some image/text content onto it. I also want to (in later revisions once the prototype is working) add a button on the back that can toggle to different images. Also have thought about adding one or two sensors (depending on space) such as a gyro and/or comms module. I plan on interfacing this with an STM32L4 MCU (have a Nucleo L433RC). Code for that has been started in this repo.
 
 ## PCB
-Be gentle, this is my first PCB I've designed by myself from scratch 🥹
+This is my first PCB I've designed by myself from scratch, so any feedback is encouraged 😊
 ### Track layout
-<img src="https://github.com/user-attachments/assets/4eb482e3-a8e3-46e0-a678-4b44994d6e51" alt="drawing" width="600"/>
+<img width="600" alt="Screenshot 2025-10-17 184225" src="https://github.com/user-attachments/assets/c3aa5bf8-b152-4d36-8376-995bd73a2b66" />
+
 
 ### Front + Back 3D
-<img src="https://github.com/user-attachments/assets/217df6b0-ca7a-4ac2-b460-8e91971b95b4" alt="drawing" width="600"/>
+<img width="600"  alt="Screenshot 2025-10-17 184106" src="https://github.com/user-attachments/assets/56cd203b-3225-472a-870e-10f6823613e4" />
+<img width="600"  alt="Screenshot 2025-10-17 184045" src="https://github.com/user-attachments/assets/8da1365f-8452-4a19-a581-11842ce05dda" />
 
 ## BOM
 | Reference        | Qty | Value            | Manufacturer Part No.         |
