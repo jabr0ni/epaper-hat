@@ -7057,7 +7057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical"
 			(at 274.32 132.08 0)
 			(effects
 				(font
@@ -7243,7 +7243,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "073cabf2-c800-4ffb-8329-df3a2ab66fa4")
 		(property "Reference" "C4"
 			(at 210.566 31.75 0)
@@ -7265,7 +7264,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 208.28 30.48 0)
 			(effects
 				(font
@@ -8163,7 +8162,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 214.63 33.02 0)
 			(effects
 				(font
@@ -8544,7 +8543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "mosfets:S8050"
 			(at 152.4 137.795 0)
 			(effects
 				(font
@@ -8622,7 +8621,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 241.3 64.77 0)
 			(effects
 				(font
@@ -8867,7 +8866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.64 152.4 0)
 			(effects
 				(font
@@ -9207,7 +9206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 60.96 165.1 0)
 			(effects
 				(font
@@ -9416,7 +9415,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.66 33.02 0)
 			(effects
 				(font
@@ -10587,7 +10586,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 241.3 91.44 0)
 			(effects
 				(font
@@ -10699,7 +10698,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 133.35 49.53 0)
 			(effects
 				(font
@@ -10967,7 +10966,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 237.49 33.02 0)
 			(effects
 				(font
@@ -11488,7 +11487,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 226.06 91.44 0)
 			(effects
 				(font
@@ -11800,7 +11799,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.71 34.29 0)
 			(effects
 				(font
@@ -11912,7 +11911,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 245.11 33.02 0)
 			(effects
 				(font
@@ -11977,6 +11976,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 245.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" ""
+			(at 245.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12291,7 +12308,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "capacitors-cam:CAPC2012X140N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 125.73 35.56 0)
 			(effects
 				(font
