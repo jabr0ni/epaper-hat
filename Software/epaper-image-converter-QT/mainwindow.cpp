@@ -47,7 +47,7 @@ void MainWindow::displayProcessedImage()
     unsigned char dataA;
     imageHandler.setImageAfter(imageProcessing);
     temp = imageHandler.getImage(1).scaled(EPAPER_DISPLAY_PX_W, EPAPER_DISPLAY_PX_H);
-    dataA = *(temp.data_ptr());
+   // dataA = *(temp.data_ptr());
     tempImage = QPixmap::fromImage(imageHandler.getImage(1)).scaled(EPAPER_DISPLAY_PX_W, EPAPER_DISPLAY_PX_H);
     ui->imgLabelAfter->setPixmap(tempImage);
 }
